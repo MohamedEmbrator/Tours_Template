@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -415,9 +416,8 @@ header {
   }
 }
 @media (max-width: 630px) {
-  @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
   * {
-    font-family: 'cairo', sans-serif;
+    font-family: "cairo", sans-serif;
   }
   body {
     background-color: #ccc;
@@ -430,9 +430,9 @@ header {
     display: block;
     padding: 30px;
   }
-    .desktop-mode .ar {
-      direction: rtl;
-    }
+  .desktop-mode .ar {
+    direction: rtl;
+  }
   ol li {
     font-size: 18px;
     font-weight: 500;
